@@ -22,5 +22,5 @@ axios.get(BASE_URL)
           console.log(`A: ${randomJoke.answer}`);
     })
     .catch((error) => {
-          console.error("Could not find a developer joke for today:", error);
+          console.error("Could not find a developer joke for today. Please try again later.");
     });
