@@ -1,0 +1,32 @@
+# NPM / Node.js
+node_modules/
+.npm/
+.npmrc
+# Local environment variables (if applicable)
+.env.local
+.env.*.local
+
+# JetBrains Rider / IntelliJ Platform
+# User-specific settings
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Rider auto-generated files
+.idea/
+!.idea/modules.xml
+!.idea/libraries/
+*.iml
+*.iws
+
+# Build artifacts
+[Bb]in/
+[Oo]bj/
+[Pp]ackages/
+*.nupkg
+*.snupkg
+
+# OS Specific
+.DS_Store
+Thumbs.db   
